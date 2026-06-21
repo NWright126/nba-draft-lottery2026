@@ -77,7 +77,7 @@ Consensus mock draft data sourced from NBA.com and nbadraft.net.
 ## Data Sources
 
 - [Hoop Explorer](https://hoop-explorer.com/?year=2025%2F26) — season stats
-- [NBA.com Draft Combine](https://www.nbadraft.net/nba-mock-drafts/#google_vignette) — mock drafts and athletic measurements
+- [NBAdraft.net](https://www.nbadraft.net/nba-mock-drafts/#google_vignette) — mock drafts and athletic measurements
 
 ---
 
