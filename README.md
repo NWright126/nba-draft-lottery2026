@@ -8,7 +8,7 @@ A data-driven lottery prospect ranking model built using 8 advanced metrics from
 
 ## Project Overview
 
-Most NBA Draft coverage relies on subjective scouting reports and eye test rankings. This project builds a repeatable, data-driven alternative — a weighted composite score for 20 potential lottery picks based on advanced statistical metrics and combine measurements.
+Most NBA Draft coverage relies on subjective scouting reports and eye test rankings. This project builds a repeatable, data-driven alternative. I have created a weighted composite score for 20 potential lottery picks based on advanced statistical metrics and combine measurements.
 
 The final ranking blends 70% statistical model output with 30% consensus mock draft positioning, then surfaces the biggest divergences between the two to identify prospects the market may be undervaluing or overvaluing.
 
@@ -27,11 +27,11 @@ The final ranking blends 70% statistical model output with 30% consensus mock dr
 | USG% (Usage Rate) | 5% | Context for production volume |
 | 3PA% (Three Point Attempt Rate) | 5% | Shot profile and fit in modern NBA spacing |
 | Wingspan Ratio (Wingspan − Height) | 5% | Defensive versatility and length |
-| Max Vertical (Combine) | 5% | Athleticism ceiling proxy |
+| Max Vertical (Combine) | 5% | Athleticism |
 
 ### Age Multiplier
 
-Age is applied as a multiplier on the final composite score — rewarding younger prospects outperforming older competition:
+Age is applied as a multiplier on the final composite score, thus rewarding younger prospects outperforming older competition:
 
 - 18 years old → +10% boost
 - 19 years old → +5% boost
@@ -41,7 +41,7 @@ Age is applied as a multiplier on the final composite score — rewarding younge
 
 ### Z-Score Normalization
 
-All metrics are normalized to z-scores before weighting to ensure stats on different scales are mathematically comparable.
+All metrics are normalized to z-scores before weighting to ensure that statistics across different scales are mathematically comparable.
 
 ### Blended Final Ranking
 
@@ -54,7 +54,7 @@ Consensus mock draft data sourced from NBA.com and nbadraft.net.
 ## Dashboard Features
 
 - **Big Board** — full lottery ranking sorted by blended final score
-- **Divergence Chart** — horizontal bar chart showing model vs. consensus gap for each prospect (green = undervalued, red = overvalued)
+- **Divergence Chart** — horizontal bar chart showing big board vs. consensus gap for each prospect (green = undervalued, red = overvalued)
 - **Scatter Plot** — model rank vs. mock rank with diagonal reference line; prospects above the line are statistically undervalued
 - **Individual Prospect View** — click any player to see their full metric breakdown relative to the group average
 
@@ -62,7 +62,7 @@ Consensus mock draft data sourced from NBA.com and nbadraft.net.
 
 ## Key Findings
 
-- Defensive metrics (Blk%+Stl%) and BPM together account for nearly half the composite weight, reflecting the modern NBA premium on two-way players
+- Defensive metrics (Blk%+Stl%) and RAPM together account for nearly half the composite weight, reflecting the modern NBA premium on two-way players
 - Age multiplier meaningfully boosts younger prospects posting comparable production to older competition
 - Rank Divergence column surfaces the biggest gaps between model output and consensus expectations
 
