@@ -1,6 +1,6 @@
 # 2026 NBA Draft Big Board — Statistical Model vs. Consensus
 
-A data-driven lottery prospect ranking model built using 8 advanced metrics from the 2024-25 college season and 2025 NBA Combine. Compares statistical model output against consensus mock draft positioning to identify over and undervalued prospects.
+A data-driven lottery prospect ranking model built using 8 advanced metrics from the 2025-26 college season and 2026 NBA Combine. Compares statistical model output against consensus mock draft positioning to identify over and undervalued prospects.
 
 📊 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/shared/KRNB98Q3Z?:display_count=n&:origin=viz_share_link)**
 
